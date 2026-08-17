@@ -1,8 +1,8 @@
 class Orbit < Formula
-  desc "iCloud-first project context CLI"
+  desc "iCloud-first project workspace CLI"
   homepage "https://github.com/SuuSoJeat/orbit"
-  url "https://github.com/SuuSoJeat/orbit/releases/download/v0.3.0/orbit-0.3.0.tar.gz"
-  sha256 "9648be4ad003cf8628d6218cb6813fa3bdbb7a4c5db5397e4d3cb281feb2c19b"
+  url "https://github.com/SuuSoJeat/orbit/releases/download/v0.3.1/orbit-0.3.1.tar.gz"
+  sha256 "e3e13addb674f20aef463289408aa74526184d1f30b69b104e736ffb50379bf1"
 
   def install
     libexec.install "bin", "templates", "VERSION", "README.md", "Makefile"
