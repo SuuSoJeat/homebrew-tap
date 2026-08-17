@@ -6,7 +6,7 @@ class Orbit < Formula
 
   def install
     libexec.install "bin", "templates", "VERSION", "README.md", "Makefile"
-    bin.install_symlink libexec/"bin/orbit"
+    bin.write_exec_script libexec/"bin/orbit"
   end
 
   test do
